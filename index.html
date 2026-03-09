@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Mamagement</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Libarary Book Managemnet System</h1>
+
+            <input type="text" id="userText" name="user_name">
+
+                <button id="filterbtn" onclick="question1()">Add to Front (unshift)</button>
+                <button class="filter-button" onclick="question2()">Add to End (push)</button>
+            <h2>Remove Books</h2>
+                <button class="remove-btn" onclick="question3()">Remove from Front (shift)</button>
+                <button class="remove-btn" onclick="question4()">Remove from End (pop)</button>
+            
+        </div>
+        <div class="section">
+        <h2>Current Book Shelf</h2>
+            
+            <ol id="display">
+
+            </ol>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
